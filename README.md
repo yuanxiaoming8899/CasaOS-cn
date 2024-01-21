@@ -1,229 +1,239 @@
-# CasaOS - Your Personal Cloud 
-<!-- Readme i18n links -->
-<!-- > English | [中文](#) | [Français](#) -->
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-casaos---your-personal-cloud" class="anchor" aria-hidden="true" tabindex="-1" href="#casaos---your-personal-cloud"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CasaOS - 您的个人云</font></font></h1>
 
-<p align="center">
-    <!-- CasaOS Banner -->
-    <picture>
+
+<p align="center" dir="auto">
+    
+    <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IceWhaleTech/logo/main/casaos/casaos_banner_dark_night_800x300.png">
         <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IceWhaleTech/logo/main/casaos/casaos_banner_twilight_blue_800x300.png">
-        <img alt="CasaOS" src="https://raw.githubusercontent.com/IceWhaleTech/logo/main/casaos/casaos_banner_twilight_blue_800x300.png">
-    </picture>
-    <br/>
-    <i>Connect with the community, establish autonomy, reduce the cost of SaaS, and MAXIMIZE the potential for a personalized copilot.</i>
-    <br/>
-    <br/>
-    <!-- CasaOS Badges -->
-    <a href="https://github.com/IceWhaleTech/CasaOS" target="_blank">
-        <img alt="CasaOS Version" src="https://img.shields.io/github/v/release/IceWhaleTech/CasaOS?color=162453&style=flat-square&label=CasaOS" />
+        <img alt="卡萨操作系统" src="https://raw.githubusercontent.com/IceWhaleTech/logo/main/casaos/casaos_banner_twilight_blue_800x300.png" style="visibility:visible;max-width:100%;">
+    </picture></themed-picture>
+    <br>
+    <i><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与社区建立联系，建立自主权，降低 SaaS 成本，并最大限度地发挥个性化副驾驶的潜力。</font></font></i>
+    <font style="vertical-align: inherit;"><a href="https://www.casaos.io" rel="nofollow"><font style="vertical-align: inherit;">网站</font></a><font style="vertical-align: inherit;">|
+    </font><a href="http://demo.casaos.io" rel="nofollow"><font style="vertical-align: inherit;">演示</font></a><font style="vertical-align: inherit;">|
+    </font><a href="https://github.com/IceWhaleTech/CasaOS"><font style="vertical-align: inherit;">GitHub</font></a></font><br>
+    <br>
+    
+    <a href="https://github.com/IceWhaleTech/CasaOS">
+        <img alt="CasaOS版本" src="https://camo.githubusercontent.com/eda85ec177441599433d04f6744f2c2c6db1d791e09af1e1f3df46dedabd1703/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f762f72656c656173652f4963655768616c65546563682f436173614f533f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d436173614f53" data-canonical-src="https://img.shields.io/github/v/release/IceWhaleTech/CasaOS?color=162453&amp;style=flat-square&amp;label=CasaOS" style="max-width: 100%;">
     </a>
-    <a href="https://github.com/IceWhaleTech/CasaOS/blob/main/LICENSE" target="_blank">
-        <img alt="CasaOS License" src="https://img.shields.io/github/license/IceWhaleTech/CasaOS?color=162453&style=flat-square&label=License" />
+    <a href="https://github.com/IceWhaleTech/CasaOS/blob/main/LICENSE">
+        <img alt="CasaOS许可证" src="https://camo.githubusercontent.com/420f670409de3c16d9edc375da4d846814e3b3247ac6f7dd4973d042ddc5cf13/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f4963655768616c65546563682f436173614f533f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d4c6963656e7365" data-canonical-src="https://img.shields.io/github/license/IceWhaleTech/CasaOS?color=162453&amp;style=flat-square&amp;label=License" style="max-width: 100%;">
     </a>
-    <a href="https://github.com/IceWhaleTech/CasaOS/pulls" target="_blank">
-        <img alt="CasaOS Pull Requests" src="https://img.shields.io/github/issues-pr/IceWhaleTech/CasaOS?color=162453&style=flat-square&label=PRs" />
+    <a href="https://github.com/IceWhaleTech/CasaOS/pulls">
+        <img alt="CasaOS 拉取请求" src="https://camo.githubusercontent.com/dee816b2d326b9a65e8c99361d02275425ce5fb5de35dfdce44054f0cd322731/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d70722f4963655768616c65546563682f436173614f533f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d505273" data-canonical-src="https://img.shields.io/github/issues-pr/IceWhaleTech/CasaOS?color=162453&amp;style=flat-square&amp;label=PRs" style="max-width: 100%;">
     </a>
-    <a href="https://github.com/IceWhaleTech/CasaOS/issues" target="_blank">
-        <img alt="CasaOS Issues" src="https://img.shields.io/github/issues/IceWhaleTech/CasaOS?color=162453&style=flat-square&label=Issues" />
+    <a href="https://github.com/IceWhaleTech/CasaOS/issues">
+        <img alt="CasaOS问题" src="https://camo.githubusercontent.com/fd370749ce154894d131ec1b48ac80a95c4d5332aa605b7484a0365da594ac19/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f4963655768616c65546563682f436173614f533f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d497373756573" data-canonical-src="https://img.shields.io/github/issues/IceWhaleTech/CasaOS?color=162453&amp;style=flat-square&amp;label=Issues" style="max-width: 100%;">
     </a>
-    <a href="https://codecov.io/gh/IceWhaleTech/CasaOS" > 
-    <img src="https://codecov.io/gh/IceWhaleTech/CasaOS/branch/main/graph/badge.svg?token=l9uMKGlkxM"/> 
+    <a href="https://codecov.io/gh/IceWhaleTech/CasaOS" rel="nofollow"> 
+    <img src="https://camo.githubusercontent.com/a8e71ed0a08a8d245e3e00a2bed977ed602d7db4c8bcd6e82e3acdda9215d5be/68747470733a2f2f636f6465636f762e696f2f67682f4963655768616c65546563682f436173614f532f6272616e63682f6d61696e2f67726170682f62616467652e7376673f746f6b656e3d6c39754d4b476c6b784d" data-canonical-src="https://codecov.io/gh/IceWhaleTech/CasaOS/branch/main/graph/badge.svg?token=l9uMKGlkxM" style="max-width: 100%;"> 
     </a>
-    <a href="https://github.com/IceWhaleTech/CasaOS/stargazers" target="_blank">
-        <img alt="CasaOS Stargazers" src="https://img.shields.io/github/stars/IceWhaleTech/CasaOS?color=162453&style=flat-square&label=Stars" />
+    <a href="https://github.com/IceWhaleTech/CasaOS/stargazers">
+        <img alt="CasaOS观星者" src="https://camo.githubusercontent.com/f4a0b4a9f315dc4f78eeef0d3c1e0807991394c650ee9ccfee84109ff7492415/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f4963655768616c65546563682f436173614f533f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d5374617273" data-canonical-src="https://img.shields.io/github/stars/IceWhaleTech/CasaOS?color=162453&amp;style=flat-square&amp;label=Stars" style="max-width: 100%;">
     </a>
-    <!-- <a href="https://github.com/IceWhaleTech/CasaOS/releases" target="_blank">
-    <img alt="CasaOS Downloads" src="https://img.shields.io/github/downloads/IceWhaleTech/CasaOS/total?color=162453&style=flat-square" />
-    </a> -->
-    <br/>
-    <!-- CasaOS Community -->
-    <a href="https://discord.gg/knqAbbBbeX" target="_blank">
-        <img alt="IceWhale Discord" src="https://img.shields.io/discord/884667213326463016?color=162453&style=flat-square&label=Discord&logo=discord&logoColor=fff" />
+    
+    <br>
+    
+    <a href="https://discord.gg/knqAbbBbeX" rel="nofollow">
+        <img alt="冰鲸不和谐" src="https://camo.githubusercontent.com/a47c63cdcf63ac28da4944b7a1bedf512a11f1a826a72b643b8c6f112731c0c7/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3838343636373231333332363436333031363f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d446973636f7264266c6f676f3d646973636f7264266c6f676f436f6c6f723d666666" data-canonical-src="https://img.shields.io/discord/884667213326463016?color=162453&amp;style=flat-square&amp;label=Discord&amp;logo=discord&amp;logoColor=fff" style="max-width: 100%;">
     </a>
-    <a href="https://github.com/IceWhaleTech/CasaOS/discussions" target="_blank">
-        <img alt="CasaOS GitHub Discussions" src="https://img.shields.io/github/discussions/IceWhaleTech/CasaOS?color=162453&style=flat-square&label=Discussions&logo=github" />
+    <a href="https://github.com/IceWhaleTech/CasaOS/discussions">
+        <img alt="CasaOS GitHub 讨论" src="https://camo.githubusercontent.com/5381e208c6c4256b8f7a83054e6d76545375ce1ad7882fbbadb627dc1ec3bf4a/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f64697363757373696f6e732f4963655768616c65546563682f436173614f533f636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6162656c3d44697363757373696f6e73266c6f676f3d676974687562" data-canonical-src="https://img.shields.io/github/discussions/IceWhaleTech/CasaOS?color=162453&amp;style=flat-square&amp;label=Discussions&amp;logo=github" style="max-width: 100%;">
     </a>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-<a href="#credits"><img alt="All Contributors" src="https://img.shields.io/static/v1?label=All%20Contributors&message=15&color=162453&style=flat-square&logo=Handshake&logoColor=fff" /></a>
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-    <br/>
-    <!-- CasaOS YouTube -->
-    <a href="https://www.youtube.com/channel/UC2zMrUYT17AJhIl9XWZzT8g" target="_blank">
-        <img alt="YouTube Tutoial Views" src="https://img.shields.io/youtube/channel/views/UC2zMrUYT17AJhIl9XWZzT8g?style=for-the-badge&logo=youtube&logoColor=red&label=YouTube%20Tutoial%20Views" />
+
+<a href="#credits"><img alt="所有贡献者" src="https://camo.githubusercontent.com/6ab6a9b25fa48e170293cad1b8dde6ca39dc27440eb121354e0a109a516ecbfa/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d416c6c253230436f6e7472696275746f7273266d6573736167653d313526636f6c6f723d313632343533267374796c653d666c61742d737175617265266c6f676f3d48616e647368616b65266c6f676f436f6c6f723d666666" data-canonical-src="https://img.shields.io/static/v1?label=All%20Contributors&amp;message=15&amp;color=162453&amp;style=flat-square&amp;logo=Handshake&amp;logoColor=fff" style="max-width: 100%;"></a>
+
+    <br>
+    
+    <a href="https://www.youtube.com/channel/UC2zMrUYT17AJhIl9XWZzT8g" rel="nofollow">
+        <img alt="YouTube 教程观看次数" src="https://camo.githubusercontent.com/0b26834f597d2d6358318b218cc963bc5eea3a96db5eb5ddc01a96ec3c63185f/68747470733a2f2f696d672e736869656c64732e696f2f796f75747562652f6368616e6e656c2f76696577732f5543327a4d725559543137414a68496c3958575a7a5438673f7374796c653d666f722d7468652d6261646765266c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c3d596f75547562652532305475746f69616c2532305669657773" data-canonical-src="https://img.shields.io/youtube/channel/views/UC2zMrUYT17AJhIl9XWZzT8g?style=for-the-badge&amp;logo=youtube&amp;logoColor=red&amp;label=YouTube%20Tutoial%20Views" style="max-width: 100%;">
     </a>
-    <br/>
-    <!-- CasaOS Links -->
-    <a href="https://www.casaos.io" target="_blank">Website</a> |
-    <a href="http://demo.casaos.io" target="_blank">Demo</a> |
-    <a href="https://github.com/IceWhaleTech/CasaOS" target="_blank">GitHub</a>
-    <br/>
-    <br/>
-    <!-- CasaOS Snapshots -->
+    <br>
+    
+    <a href="https://www.casaos.io" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="http://demo.casaos.io" rel="nofollow"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><a href="https://github.com/IceWhaleTech/CasaOS"><font style="vertical-align: inherit;"></font></a>
+    <br>
+    <br>
+    
     <kbd>
-      <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="snapshot-dark.jpg">
-          <source media="(prefers-color-scheme: light)" srcset="snapshot-light.jpg">
-          <img alt="CasaOS Snapshot" src="snapshot-light.jpg">
-      </picture>
+      <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+          <source media="(prefers-color-scheme: dark)" srcset="/IceWhaleTech/CasaOS/raw/main/snapshot-dark.jpg">
+          <source media="(prefers-color-scheme: light)" srcset="/IceWhaleTech/CasaOS/raw/main/snapshot-light.jpg">
+          <img alt="CasaOS Snapshot" src="/IceWhaleTech/CasaOS/raw/main/snapshot-light.jpg" style="visibility:visible;max-width:100%;">
+      </picture></themed-picture>
     </kbd>
 </p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-why-do-you-need-personal-cloud" class="anchor" aria-hidden="true" tabindex="-1" href="#why-do-you-need-personal-cloud"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为什么需要个人云？</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2020年，团队注意到三个重要趋势：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">计算能力和存储的成本正在快速下降。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">云计算的一部分正在转向边缘计算。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">消费者数据资产所有权和归属问题被忽视。</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于这些趋势，团队在内部提出了一个思想实验：如果未来五年内个人云的价格低于 100 美元会怎样？</font><font style="vertical-align: inherit;">这种个人云将提供低成本的数据协作解决方案作为个人数据中心，为创作者和小型组织存储和管理数据。</font><font style="vertical-align: inherit;">分布式协作计算网络可以由位于世界各地的个人服务器组成。</font><font style="vertical-align: inherit;">它还可以控制和连接所有智能设备，提供跨生态系统的本地智能服务。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此外，个人云可以结合个人数据来训练个性化的人工智能助手。</font><font style="vertical-align: inherit;">我们的想法是，这项技术将成为解决消费者数据资产所有权问题的有效方法，并为个人和小型组织提供更实惠、更高效的计算解决方案。</font></font></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您认为我们所做的事情有价值。</font><font style="vertical-align: inherit;">请</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给我们一颗星⭐</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分叉它🤞</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">！</font></font></p>
+</blockquote>
+<h2 tabindex="-1" dir="auto"><a id="user-content-features" class="anchor" aria-hidden="true" tabindex="-1" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">专为家庭场景设计的友好UI
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无代码、无表格、直观、人性化设计</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多种硬件和基础系统支持
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ZimaBoard、NUC、RPi、旧电脑，任何可用的东西。</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">应用商店精选应用，一键安装
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nextcloud、HomeAssistant、AdGuard、Jellyfin、*arr 等等！</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松安装大量 Docker 应用程序
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以轻松安装来自 Docker 生态系统的超过 100,000 个应用程序</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">优雅的驱动器和文件管理
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你所看到的就是你得到的。</font><font style="vertical-align: inherit;">无需技术背景。</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">精心设计的系统/应用程序小部件
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您关心什么，一目了然。</font><font style="vertical-align: inherit;">资源使用情况、应用程序状态等等！</font></font></li>
+</ul>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-getting-started" class="anchor" aria-hidden="true" tabindex="-1" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CasaOS 完全支持 ZimaBoard、Intel NUC 和 Raspberry Pi。</font><font style="vertical-align: inherit;">同时，更多的电脑和开发板，完全兼容Ubuntu、Debian、Raspberry Pi OS和CentOS，只需一行安装即可。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-hardware-compatibility" class="anchor" aria-hidden="true" tabindex="-1" href="#hardware-compatibility"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">硬件兼容性</font></font></h3>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">amd64 / x86-64</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ARM64</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ARMv7</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-system-compatibility" class="anchor" aria-hidden="true" tabindex="-1" href="#system-compatibility"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">系统兼容性</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方支持</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Debian 12（✅ 已测试，推荐）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ubuntu 服务器 20.04（✅ 已测试）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Raspberry Pi 操作系统（✅ 已测试）</font></font></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区支持</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小学 6.1（✅ 已测试）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Armbian 22.04（✅ 已测试）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Alpine（🚧 尚未完全测试）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenWrt（🚧 尚未完全测试）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ArchLinux（🚧 尚未完全测试）</font></font></li>
+</ul>
+<h3 tabindex="-1" dir="auto"><a id="user-content-quick-setup-casaos" class="anchor" aria-hidden="true" tabindex="-1" href="#quick-setup-casaos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速设置 CasaOS</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从上面的列表中全新安装系统并运行以下命令：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>wget -qO- https://get.casaos.io <span class="pl-k">|</span> sudo bash</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="wget -qO- https://get.casaos.io | sudo bash" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或者</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>curl -fsSL https://get.casaos.io <span class="pl-k">|</span> sudo bash</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="curl -fsSL https://get.casaos.io | sudo bash" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-uninstall-casaos" class="anchor" aria-hidden="true" tabindex="-1" href="#uninstall-casaos"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">卸载CasaOS</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.3.3 或更高版本</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>casaos-uninstall</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="casaos-uninstall" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">v0.3.3之前</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>curl -fsSL https://get.icewhale.io/casaos-uninstall.sh <span class="pl-k">|</span> sudo bash</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="curl -fsSL https://get.icewhale.io/casaos-uninstall.sh | sudo bash" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-community" class="anchor" aria-hidden="true" tabindex="-1" href="#community"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Casa一词源自西班牙语，意为“家”。</font></font><a href="https://www.zimaboard.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CasaOS 项目最初是 Kickstarter 上众筹产品ZimaBoard</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的预装系统</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在查看了市场上的许多系统和软件后，团队发现没有一款专为家庭场景设计的服务器系统，遗憾的是事实如此。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">因此，我们着手构建这个开源项目，用我们自己的双手、社区中的每个人以及您来开发 CasaOS。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们相信，通过社区驱动的协作创新以及与全球开发者的开放沟通，我们能够以前所未有的方式重塑数字家庭体验。</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">热烈欢迎您在</font></font><a href="https://discord.gg/knqAbbBbeX" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Discord</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中获得帮助或分享好主意！</font></font></strong></p>
+<p dir="auto"><a href="https://discord.gg/knqAbbBbeX" rel="nofollow"><img src="https://camo.githubusercontent.com/173412664a8e0f4f3ae688a0c2973b91c304ab61ea75b0ce89245c49b586c2bb/68747470733a2f2f646973636f72646170702e636f6d2f6170692f6775696c64732f3838343636373231333332363436333031362f7769646765742e706e673f7374796c653d62616e6e657232" alt="不和谐卡" data-canonical-src="https://discordapp.com/api/guilds/884667213326463016/widget.png?style=banner2" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CasaOS是一个社区驱动的开源项目，参与的人都是CasaOS的用户。</font><font style="vertical-align: inherit;">这意味着 CasaOS 将始终需要像您一样的社区成员的贡献！</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅</font></font><a href="https://wiki.casaos.io/en/contribute" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://wiki.casaos.io/en/contribute</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解为 CasaOS 做出贡献的方式</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想具体参与代码贡献，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://wiki.casaos.io/en/contribute/development" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://wiki.casaos.io/en/contribute/development</font></font></a><font style="vertical-align: inherit;"></font></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-donate" class="anchor" aria-hidden="true" tabindex="-1" href="#donate"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">捐</font></font></h2>
+<p dir="auto"><a href="https://www.buymeacoffee.com/icewhaletech" rel="nofollow"> <img align="center" src="https://camo.githubusercontent.com/cace41b0afc90c68d0207e2bd809ee121f9ff4f72ac032e8ced972aee7adbb23/68747470733a2f2f63646e2e6275796d6561636f666665652e636f6d2f627574746f6e732f76322f64656661756c742d79656c6c6f772e706e67" height="50" width="210" alt="巴皮2097" data-canonical-src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-credits" class="anchor" aria-hidden="true" tabindex="-1" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作人员</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常感谢迄今为止为 CasaOS 提供帮助的所有人！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">非常感谢每个人的贡献。</font><font style="vertical-align: inherit;">（</font></font><a href="https://allcontributors.org/docs/en/emoji-key" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表情符号键</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
 
-## Why do you need Personal Cloud?
-
-In 2020, the team noticed three important trends:
-- The cost of computing power and storage was decreasing fast.
-- A part of cloud computing was moving towards edge computing.
-- The issue of consumer data asset ownership and attribution had been ignored.
-
-Based on these trends, the team proposed a thought experiment internally: what if personal clouds were available under $100 in next five years? This personal cloud would provide a low-cost data collaboration solution as a personal data center, storing and managing data for creators and small organizations. A distributed collaborative computing network can be formed by personal servers located around the world. It could also control and connect all smart devices, providing cross-ecosystem local intelligent services.
-
-Furthermore, the personal cloud could combine personal data to train personalized AI assistants. The idea is that this technology would be an effective way to solve the issue of consumer data asset ownership and , as well as provide a more affordable and efficient computing solution for individuals and small organizations.
-
-> If you think what we are doing is valuable. Please **give us a star ⭐** and **fork it 🤞**!
-
-## Features
-
-- Friendly UI designed for home scenarios
-  - No code, no forms, intuitive, design for humanity
-- Multiple hardware and base system support
-  - ZimaBoard, NUC, RPi, old computers, whatever is available.
-- Selected apps in the app store, one-click installation
-  - Nextcloud, HomeAssistant, AdGuard, Jellyfin, *arr and more!
-- Easily install numerous Docker apps
-  - Over 100,000 apps from the Docker ecosystem can be easily installed
-- Elegant drive and file management
-  - What you see is what you get. No technical background required.
-- Well-designed system/app widgets
-  - What you care about, at a glance. Resource usage, app status, and more!
-
-## Getting Started
-
-CasaOS fully supports ZimaBoard, Intel NUC, and Raspberry Pi. Also, more computers and development boards and fully compatible with Ubuntu, Debian, Raspberry Pi OS, and CentOS with one-liner installation.
-
-### Hardware Compatibility
-
-- amd64 / x86-64
-- arm64
-- armv7
-
-### System Compatibility
-
-Official Support
-- Debian 12 (✅ Tested, Recommended)
-- Ubuntu Server 20.04 (✅ Tested)
-- Raspberry Pi OS (✅ Tested)
-
-Community Support
-- Elementary 6.1 (✅ Tested)
-- Armbian 22.04 (✅ Tested)
-- Alpine (🚧 Not Fully Tested Yet)
-- OpenWrt (🚧 Not Fully Tested Yet)
-- ArchLinux (🚧 Not Fully Tested Yet)
-
-### Quick Setup CasaOS
-
-Freshly install a system from the list above and run this command:
-
-```sh
-wget -qO- https://get.casaos.io | sudo bash
-```
-
-or
-
-```sh
-curl -fsSL https://get.casaos.io | sudo bash
-```
-
-### Uninstall CasaOS
 
 
-v0.3.3 or newer
-
-```sh
-casaos-uninstall
-```
-
-Before v0.3.3
-
-```sh
-curl -fsSL https://get.icewhale.io/casaos-uninstall.sh | sudo bash
-```
-
-## Community 
-
-The word Casa comes from the Spanish word for "home". Project CasaOS originated as a pre-installed system for the crowdfunded product [ZimaBoard](https://www.zimaboard.com) on Kickstarter.
-
-After looking at many systems and software on the market, the team found no server system designed for home scenarios, sadly true.
-
-So, we set out to build this open-source project to develop CasaOS with our own hands, everyone in the community, and you.
-
-We believe that through community-driven collaborative innovation and open communication with global developers, we can reshape the digital home experience like never before.
-
-**A warm welcome for you to get help or share great ideas in the [Discord](https://discord.gg/knqAbbBbeX)!**
-
-[![Discord Card](https://discordapp.com/api/guilds/884667213326463016/widget.png?style=banner2)](https://discord.gg/knqAbbBbeX)
-
-## Contributing
-
-CasaOS is a community-driven open source project and the people involved are CasaOS users. That means CasaOS will always need contributions from community members just like you!
-
-- See <https://wiki.casaos.io/en/contribute> for ways of contributing to CasaOS
-- See <https://wiki.casaos.io/en/contribute/development> if you want to be involved in code contribution specifically
-
-## Donate
-<p ><a href="https://www.buymeacoffee.com/icewhaletech"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bappi2097" target="_blank" /></a></p>
-
-
-## Credits
-
-Many thanks to everyone who has helped CasaOS so far!
-
-Everyone's contribution is greatly appreciated. ([Emoji Key](https://allcontributors.org/docs/en/emoji-key))
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://github.com/jerrykuku"><img src="https://avatars.githubusercontent.com/u/9485680?v=4?s=100" width="100px;" alt=""/><br /><sub><b>老竭力</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=jerrykuku" title="Code">💻</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=jerrykuku" title="Documentation">📖</a> <a href="#ideas-jerrykuku" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-jerrykuku" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-jerrykuku" title="Maintenance">🚧</a> <a href="#platform-jerrykuku" title="Packaging/porting to new platform">📦</a> <a href="#question-jerrykuku" title="Answering Questions">💬</a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3Ajerrykuku" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/LinkLeong"><img src="https://avatars.githubusercontent.com/u/13556972?v=4?s=100" width="100px;" alt=""/><br /><sub><b>link</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=LinkLeong" title="Code">💻</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=LinkLeong" title="Documentation">📖</a> <a href="#ideas-LinkLeong" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-LinkLeong" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-LinkLeong" title="Maintenance">🚧</a> <a href="#question-LinkLeong" title="Answering Questions">💬</a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3ALinkLeong" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/tigerinus"><img src="https://avatars.githubusercontent.com/u/7172560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tiger Wang (王豫)</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=tigerinus" title="Code">💻</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=tigerinus" title="Documentation">📖</a> <a href="#ideas-tigerinus" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-tigerinus" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-tigerinus" title="Maintenance">🚧</a> <a href="#mentoring-tigerinus" title="Mentoring">🧑‍🏫</a> <a href="#security-tigerinus" title="Security">🛡️</a> <a href="#question-tigerinus" title="Answering Questions">💬</a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3Atigerinus" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/Lauren-ED209"><img src="https://avatars.githubusercontent.com/u/8243355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lauren</b></sub></a><br /><a href="#ideas-Lauren-ED209" title="Ideas, Planning, & Feedback">🤔</a> <a href="#fundingFinding-Lauren-ED209" title="Funding Finding">🔍</a> <a href="#projectManagement-Lauren-ED209" title="Project Management">📆</a> <a href="#question-Lauren-ED209" title="Answering Questions">💬</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=Lauren-ED209" title="Tests">⚠️</a></td>
-    <td align="center"><a href="https://JohnGuan.Cn"><img src="https://avatars.githubusercontent.com/u/3358477?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Guan</b></sub></a><br /><a href="#blog-JohnGuan" title="Blogposts">📝</a> <a href="#content-JohnGuan" title="Content">🖋</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=JohnGuan" title="Documentation">📖</a> <a href="#ideas-JohnGuan" title="Ideas, Planning, & Feedback">🤔</a> <a href="#eventOrganizing-JohnGuan" title="Event Organizing">📋</a> <a href="#mentoring-JohnGuan" title="Mentoring">🧑‍🏫</a> <a href="#question-JohnGuan" title="Answering Questions">💬</a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3AJohnGuan" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://blog.tippybits.com"><img src="https://avatars.githubusercontent.com/u/17506770?v=4?s=100" width="100px;" alt=""/><br /><sub><b>David Tippett</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=dtaivpp" title="Documentation">📖</a> <a href="#ideas-dtaivpp" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-dtaivpp" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://github.com/zarevskaya"><img src="https://avatars.githubusercontent.com/u/60230221?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Skaya</b></sub></a><br /><a href="#mentoring-zarevskaya" title="Mentoring">🧑‍🏫</a> <a href="#question-zarevskaya" title="Answering Questions">💬</a> <a href="#tutorial-zarevskaya" title="Tutorials">✅</a> <a href="#translation-zarevskaya" title="Translation">🌍</a></td>
+  <tbody><tr>
+    <td align="center"><a href="https://github.com/jerrykuku"><img src="https://avatars.githubusercontent.com/u/9485680?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">老</font></font></b></sub></a><font style="vertical-align: inherit;"><a href="#maintenance-jerrykuku" title="Maintenance"><font style="vertical-align: inherit;">竭力</font></a></font><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=jerrykuku" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻📖🤔🚇🚧📦💬👀</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=jerrykuku" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#ideas-jerrykuku" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#infra-jerrykuku" title="基础设施（托管、构建工具等）"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <font style="vertical-align: inherit;"><a href="#platform-jerrykuku" title="Packaging/porting to new platform"><font style="vertical-align: inherit;">_</font></a><a href="#question-jerrykuku" title="Answering Questions"><font style="vertical-align: inherit;">_</font></a><a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3Ajerrykuku" title="Reviewed Pull Requests"><font style="vertical-align: inherit;">_</font></a></font><a href="#maintenance-jerrykuku" title="维护"><font style="vertical-align: inherit;"></font></a> <a href="#platform-jerrykuku" title="打包/移植到新平台"><font style="vertical-align: inherit;"></font></a> <a href="#question-jerrykuku" title="回答问题"><font style="vertical-align: inherit;"></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3Ajerrykuku" title="审查拉取请求"><font style="vertical-align: inherit;"></font></a></td>
+    <td align="center"><a href="https://github.com/LinkLeong"><img src="https://avatars.githubusercontent.com/u/13556972?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">链接</font></font></b></sub></a><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=LinkLeong" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻📖🤔🚇🚧💬👀</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=LinkLeong" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#ideas-LinkLeong" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#infra-LinkLeong" title="基础设施（托管、构建工具等）"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#maintenance-LinkLeong" title="维护"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#question-LinkLeong" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3ALinkLeong" title="审查拉取请求"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a></td>
+    <td align="center"><a href="https://github.com/tigerinus"><img src="https://avatars.githubusercontent.com/u/7172560?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">王豫 (Tiger Wang)</font></font></b></sub></a><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=tigerinus" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 💻</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=tigerinus" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📖</font></font></a> <a href="#ideas-tigerinus" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a> <a href="#infra-tigerinus" title="基础设施（托管、构建工具等）"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚇</font></font></a> <a href="#maintenance-tigerinus" title="维护"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🚧</font></font></a> <a href="#mentoring-tigerinus" title="辅导"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧑&zwj;🏫</font></font></a> <a href="#security-tigerinus" title="安全"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛡️</font></font></a> <a href="#question-tigerinus" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💬</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3Atigerinus" title="审查拉取请求"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👀</font></font></a></td>
+    <td align="center"><a href="https://github.com/Lauren-ED209"><img src="https://avatars.githubusercontent.com/u/8243355?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">劳伦</font></font></b></sub></a><br><a href="#ideas-Lauren-ED209" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔🔍📆💬</font></font></a> <a href="#fundingFinding-Lauren-ED209" title="资金寻找"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#projectManagement-Lauren-ED209" title="项目管理"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#question-Lauren-ED209" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=Lauren-ED209" title="测试"><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji></a></td>
+    <td align="center"><a href="https://JohnGuan.Cn" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/3358477?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"></font></b></sub></a><font style="vertical-align: inherit;"><a href="#eventOrganizing-JohnGuan" title="Event Organizing"><font style="vertical-align: inherit;">关</font></a><a href="https://JohnGuan.Cn" rel="nofollow"><sub><b><font style="vertical-align: inherit;">约翰</font></b></sub></a></font><br><a href="#blog-JohnGuan" title="博文"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📝🖋📖🤔📋🧑&zwj;🏫💬👀</font></font></a> <a href="#content-JohnGuan" title="内容"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=JohnGuan" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#ideas-JohnGuan" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <font style="vertical-align: inherit;"><a href="#mentoring-JohnGuan" title="Mentoring"><font style="vertical-align: inherit;">_</font></a><a href="#question-JohnGuan" title="Answering Questions"><font style="vertical-align: inherit;">_</font></a><a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3AJohnGuan" title="Reviewed Pull Requests"><font style="vertical-align: inherit;">_</font></a></font><a href="#eventOrganizing-JohnGuan" title="活动组织"><font style="vertical-align: inherit;"></font></a> <a href="#mentoring-JohnGuan" title="辅导"><font style="vertical-align: inherit;"></font></a> <a href="#question-JohnGuan" title="回答问题"><font style="vertical-align: inherit;"></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/pulls?q=is%3Apr+reviewed-by%3AJohnGuan" title="审查拉取请求"><font style="vertical-align: inherit;"></font></a></td>
+    <td align="center"><a href="https://blog.tippybits.com" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/17506770?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大卫</font></font></b></sub></a><font style="vertical-align: inherit;"><a href="#ideas-dtaivpp" title="Ideas, Planning, &amp; Feedback"><font style="vertical-align: inherit;">·</font></a><a href="#question-dtaivpp" title="Answering Questions"><font style="vertical-align: inherit;">蒂皮特</font></a></font><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=dtaivpp" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📖🤔💬</font></font></a> <a href="#ideas-dtaivpp" title="想法、规划和反馈"><font style="vertical-align: inherit;"></font></a> <a href="#question-dtaivpp" title="回答问题"><font style="vertical-align: inherit;"></font></a></td>
+    <td align="center"><a href="https://github.com/zarevskaya"><img src="https://avatars.githubusercontent.com/u/60230221?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">斯卡娅</font></font></b></sub></a><br><a href="#mentoring-zarevskaya" title="辅导"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧑&zwj;🏫💬✅🌍</font></font></a> <a href="#question-zarevskaya" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#tutorial-zarevskaya" title="教程"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#translation-zarevskaya" title="翻译"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/AuthorShin"><img src="https://avatars.githubusercontent.com/u/4959043?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AuthorShin</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=AuthorShin" title="Tests">⚠️</a> <a href="https://github.com/IceWhaleTech/CasaOS/issues?q=author%3AAuthorShin" title="Bug reports">🐛</a> <a href="#question-AuthorShin" title="Answering Questions">💬</a> <a href="#ideas-AuthorShin" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/baptiste313"><img src="https://avatars.githubusercontent.com/u/93325157?v=4?s=100" width="100px;" alt=""/><br /><sub><b>baptiste313</b></sub></a><br /><a href="#translation-baptiste313" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/DrMxrcy"><img src="https://avatars.githubusercontent.com/u/58747968?v=4?s=100" width="100px;" alt=""/><br /><sub><b>DrMxrcy</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=DrMxrcy" title="Tests">⚠️</a> <a href="#ideas-DrMxrcy" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-DrMxrcy" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://github.com/Joooost"><img src="https://avatars.githubusercontent.com/u/12090673?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Joooost</b></sub></a><br /><a href="#ideas-Joooost" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://potyarkin.ml"><img src="https://avatars.githubusercontent.com/u/334908?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vitaly Potyarkin</b></sub></a><br /><a href="#ideas-sio" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/bearfrieze"><img src="https://avatars.githubusercontent.com/u/1023813?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bjørn Friese</b></sub></a><br /><a href="#ideas-bearfrieze" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/Protektor-Desura"><img src="https://avatars.githubusercontent.com/u/1195496?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Protektor</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/issues?q=author%3AProtektor-Desura" title="Bug reports">🐛</a> <a href="#ideas-Protektor-Desura" title="Ideas, Planning, & Feedback">🤔</a> <a href="#question-Protektor-Desura" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/AuthorShin"><img src="https://avatars.githubusercontent.com/u/4959043?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者申</font></font></b></sub></a><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=AuthorShin" title="测试"><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji></a> <a href="https://github.com/IceWhaleTech/CasaOS/issues?q=author%3AAuthorShin" title="错误报告"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐛💬🤔 </font></font></a> <a href="#question-AuthorShin" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_ </font></font></a> <a href="#ideas-AuthorShin" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a></td>
+    <td align="center"><a href="https://github.com/baptiste313"><img src="https://avatars.githubusercontent.com/u/93325157?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">巴蒂斯特</font></font></b></sub></a><br><a href="#translation-baptiste313" title="翻译"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">313🌍</font></font></a></td>
+    <td align="center"><a href="https://github.com/DrMxrcy"><img src="https://avatars.githubusercontent.com/u/58747968?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博士</font></font></b></sub></a><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=DrMxrcy" title="测试"><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji></a> <a href="#ideas-DrMxrcy" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔💬 </font></font></a> <a href="#question-DrMxrcy" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a></td>
+    <td align="center"><a href="https://github.com/Joooost"><img src="https://avatars.githubusercontent.com/u/12090673?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">乔奥斯特</font></font></b></sub></a><br><a href="#ideas-Joooost" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+    <td align="center"><a href="https://potyarkin.ml" rel="nofollow"><img src="https://avatars.githubusercontent.com/u/334908?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维塔利·波佳金</font></font></b></sub></a><br><a href="#ideas-sio" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+    <td align="center"><a href="https://github.com/bearfrieze"><img src="https://avatars.githubusercontent.com/u/1023813?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">比约恩·弗里斯</font></font></b></sub></a><br><a href="#ideas-bearfrieze" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔</font></font></a></td>
+    <td align="center"><a href="https://github.com/Protektor-Desura"><img src="https://avatars.githubusercontent.com/u/1195496?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保护者</font></font></b></sub></a><br><a href="https://github.com/IceWhaleTech/CasaOS/issues?q=author%3AProtektor-Desura" title="错误报告"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐛🤔💬</font></font></a> <a href="#ideas-Protektor-Desura" title="想法、规划和反馈"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a> <a href="#question-Protektor-Desura" title="回答问题"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/llwaini"><img src="https://avatars.githubusercontent.com/u/59589857?v=4?s=100" width="100px;" alt=""/><br /><sub><b>llwaini</b></sub></a><br /><a href="#projectManagement-llwaini" title="Project Management">📆</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=llwaini" title="Tests">⚠️</a> <a href="#tutorial-llwaini" title="Tutorials">✅</a></td>
-    <td align="center"><a href="https://github.com/CorrectRoadH"><img src="https://avatars.githubusercontent.com/u/29306285?v=4?s=100" width="100px;" alt=""/><br /><sub><b>CorrectRoadH</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=correctroadh" title="Code">💻</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=correctroadh" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/zhanghengxin"><img src="https://avatars.githubusercontent.com/u/24197448?v=4?s=100" width="100px;" alt=""/><br /><sub><b>zhanghengxin</b></sub></a><br /><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=zhanghengxin" title="Code">💻</a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=zhanghengxin" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/llwaini"><img src="https://avatars.githubusercontent.com/u/59589857?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尔瓦尼</font></font></b></sub></a><br><a href="#projectManagement-llwaini" title="项目管理"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📆</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=llwaini" title="测试"><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji></a> <a href="#tutorial-llwaini" title="教程"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">✅</font></font></a></td>
+    <td align="center"><a href="https://github.com/CorrectRoadH"><img src="https://avatars.githubusercontent.com/u/29306285?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">正确的</font></font></b></sub></a><font style="vertical-align: inherit;"><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=correctroadh" title="Documentation"><font style="vertical-align: inherit;">道路</font></a></font><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=correctroadh" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">H💻📖</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=correctroadh" title="文档"><font style="vertical-align: inherit;"></font></a></td>
+    <td align="center"><a href="https://github.com/zhanghengxin"><img src="https://avatars.githubusercontent.com/u/24197448?v=4?s=100" width="100px;" alt="" style="max-width: 100%;"><br><sub><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">张恒鑫</font></font></b></sub></a><br><a href="https://github.com/IceWhaleTech/CasaOS/commits?author=zhanghengxin" title="代码"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">💻📖</font></font></a> <a href="https://github.com/IceWhaleTech/CasaOS/commits?author=zhanghengxin" title="文档"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">_</font></font></a></td>
   </tr>
-</table>
+</tbody></table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
-
-## Changelog
-
-Detailed changes for each release are documented in the [release notes](https://github.com/IceWhaleTech/CasaOS/releases).
-
----
-
-<p align="center">
-    <a href="https://dashboard.trackgit.com/token/l5q8egi92tfhlxd70l2l">
-        <img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/l5q8egi92tfhlxd70l2l" alt="trackgit-views" />
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目遵循</font></font><a href="https://github.com/all-contributors/all-contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有贡献者</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">规范。</font><font style="vertical-align: inherit;">欢迎任何形式的贡献！</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-changelog" class="anchor" aria-hidden="true" tabindex="-1" href="#changelog"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变更日志</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个版本的详细更改都记录在</font></font><a href="https://github.com/IceWhaleTech/CasaOS/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发行说明</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中。</font></font></p>
+<hr>
+<p align="center" dir="auto">
+    <a href="https://dashboard.trackgit.com/token/l5q8egi92tfhlxd70l2l" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/a4c6f3b11704f084229de6da17d1488026b19d16853c5a6234d6a8b450cd0807/68747470733a2f2f75732d63656e7472616c312d747261636b6769742d616e616c79746963732e636c6f756466756e6374696f6e732e6e65742f746f6b656e2f70696e672f6c35713865676939327466686c786437306c326c" alt="Trackgit 视图" data-canonical-src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/l5q8egi92tfhlxd70l2l" style="max-width: 100%;">
     </a>
 </p>
+</article></div>
